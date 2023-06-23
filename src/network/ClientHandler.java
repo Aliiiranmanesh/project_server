@@ -23,8 +23,8 @@ public class ClientHandler extends Thread {
             DataOutputStream dos = new DataOutputStream(socket.getOutputStream());
             String req = dis.readUTF();
             Scanner scanner = new Scanner(req);
-            // command money
-            //data:ali,,iranmanesh,,3000
+            // command register
+            //data:ali,,iranmanesh
             String command = scanner.nextLine();
             String data = scanner.nextLine();
 

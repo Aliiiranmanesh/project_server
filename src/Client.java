@@ -8,7 +8,7 @@ public class Client {
         DataOutputStream dos = new DataOutputStream(socket.getOutputStream());
         DataInputStream dis = new DataInputStream(socket.getInputStream());
 
-        dos.writeUTF("register\nUser:AliIranmanesh,,Pass:2213");
+        dos.writeUTF("addToWallet\nUser:AvaIranmanesh,,money:3000");
         dos.flush();
         System.out.println(dis.readUTF());
         dos.close();

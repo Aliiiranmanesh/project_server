@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10668737-e675-4459-a4cc-9d5b79a886ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/User&amp;Pass.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Convertor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network/Server.java" afterDir="false" />
+    <list default="true" id="10668737-e675-4459-a4cc-9d5b79a886ed" name="Changes" comment="inits">
+      <change afterPath="$PROJECT_DIR$/src/Data/AccountsNetWorth.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/User&amp;Pass.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/User&amp;Pass.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +79,16 @@
       <workItem from="1687503673122" duration="2000" />
       <workItem from="1687508397398" duration="717000" />
       <workItem from="1687514826938" duration="5153000" />
-      <workItem from="1687527678505" duration="3693000" />
+      <workItem from="1687527678505" duration="13576000" />
     </task>
+    <task id="LOCAL-00001" summary="inits">
+      <created>1687531935372</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687531935372</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +104,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inits" />
+    <option name="LAST_COMMIT_MESSAGE" value="inits" />
   </component>
 </project>
