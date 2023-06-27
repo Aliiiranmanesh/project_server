@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10668737-e675-4459-a4cc-9d5b79a886ed" name="Changes" comment="registeration and money adding">
+    <list default="true" id="10668737-e675-4459-a4cc-9d5b79a886ed" name="Changes" comment="database added and Authorize is added">
+      <change afterPath="$PROJECT_DIR$/src/Data/CurrentUser.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/AccountsNetWorth.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/AccountsNetWorth.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/User&amp;Pass.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/User&amp;Pass.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="project" />
@@ -57,8 +57,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +78,11 @@
       <workItem from="1687508397398" duration="717000" />
       <workItem from="1687514826938" duration="5153000" />
       <workItem from="1687527678505" duration="13662000" />
-      <workItem from="1687670519435" duration="13703000" />
+      <workItem from="1687670519435" duration="14362000" />
+      <workItem from="1687714415895" duration="348000" />
+      <workItem from="1687722077929" duration="542000" />
+      <workItem from="1687755134531" duration="21047000" />
+      <workItem from="1687845998514" duration="5223000" />
     </task>
     <task id="LOCAL-00001" summary="inits">
       <created>1687531935372</created>
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687549241285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="database added and Authorize is added">
+      <created>1687710525916</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687710525916</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inits" />
     <MESSAGE value="registeration and money adding" />
-    <option name="LAST_COMMIT_MESSAGE" value="registeration and money adding" />
+    <MESSAGE value="database added and Authorize is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="database added and Authorize is added" />
   </component>
 </project>
