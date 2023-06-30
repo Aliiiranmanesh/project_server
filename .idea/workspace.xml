@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10668737-e675-4459-a4cc-9d5b79a886ed" name="Changes" comment="database added and Authorize is added">
-      <change afterPath="$PROJECT_DIR$/src/Data/CurrentUser.txt" afterDir="false" />
+    <list default="true" id="10668737-e675-4459-a4cc-9d5b79a886ed" name="Changes" comment="enahnced">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AccountsNetWorth.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/AccountsNetWorth.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Adventure Sherlock Holmes/Adventure Sherlock Holmes Image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Adventure Sherlock Holmes/Adventure Sherlock Holmes.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Adventure Sherlock Holmes/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Peter Pan/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Peter Pan/Peter Pan Image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Peter Pan/Peter Pan.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Pride And Prejudice/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Pride And Prejudice/Pride And Prejudice Image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/AudioBooks/Pride And Prejudice/Pride And Prejudice.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/The Price/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/The Price/The Price Image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/The Price/The Price.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/To Kill a Mocking Bird/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/To Kill a Mocking Bird/To Kill a Mocking Bird Image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/To Kill a Mocking Bird/To Kill a Mocking Bird.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/Young Goodman Brown/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/Young Goodman Brown/Young Goodman Brown Image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Books/Young Goodman Brown/Young Goodman Brown.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/User&amp;Pass.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/User&amp;Pass.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/network/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/ClientHandler.java" afterDir="false" />
@@ -83,6 +101,23 @@
       <workItem from="1687722077929" duration="542000" />
       <workItem from="1687755134531" duration="21047000" />
       <workItem from="1687845998514" duration="5223000" />
+      <workItem from="1687853876690" duration="1387000" />
+      <workItem from="1687867080395" duration="513000" />
+      <workItem from="1687875491302" duration="1598000" />
+      <workItem from="1687892127995" duration="612000" />
+      <workItem from="1687899051702" duration="603000" />
+      <workItem from="1687947209960" duration="600000" />
+      <workItem from="1687962283763" duration="606000" />
+      <workItem from="1687975321914" duration="236000" />
+      <workItem from="1687977687213" duration="3170000" />
+      <workItem from="1687981411179" duration="1320000" />
+      <workItem from="1688018576646" duration="289000" />
+      <workItem from="1688020199582" duration="1143000" />
+      <workItem from="1688022655361" duration="670000" />
+      <workItem from="1688029460965" duration="2931000" />
+      <workItem from="1688034199569" duration="1344000" />
+      <workItem from="1688114811728" duration="612000" />
+      <workItem from="1688119134326" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="inits">
       <created>1687531935372</created>
@@ -105,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687710525916</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="enahnced">
+      <created>1687854335637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687854335637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +168,7 @@
     <MESSAGE value="inits" />
     <MESSAGE value="registeration and money adding" />
     <MESSAGE value="database added and Authorize is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="database added and Authorize is added" />
+    <MESSAGE value="enahnced" />
+    <option name="LAST_COMMIT_MESSAGE" value="enahnced" />
   </component>
 </project>

@@ -17,7 +17,7 @@ public class Controller {
         //User:.....,,Pass:.....
         ArrayList<String> lines = (ArrayList<String>) Files.readAllLines(Paths.get("src/Data/User&Pass.txt"));
         for (String str : lines)
-            if (str.equals(("User:" + data.get("User") + ",,Pass:" + data.get("Pass")))) {
+            if (str.contains(("User:" + data.get("User"))) && str.contains(("Pass:" + data.get("Pass")))) {
                 ArrayList<String> line = new ArrayList<>();
                 line.add(data.get("User"));
                 Files.write(Paths.get("src/Data/CurrentUser.txt"), line);
@@ -46,7 +46,7 @@ public class Controller {
                 if (str.contains(data.get("User")))
                     return "account is already created";
             }
-            if (data.get("Pass").length() < 8 || data.get("Pass").contains(data.get("User")) || !data.get("Email").contains("@yahoo.com")  || !this.conditions(data.get("Pass"), data.get("Pass").length()))
+            if (data.get("Pass").length() < 8 || data.get("Pass").contains(data.get("User")) || !data.get("Email").contains("@yahoo.com") || !this.conditions(data.get("Pass"), data.get("Pass").length()))
                 return "Password or email isn't right!";
             DataBase.getInstance("register").getTable("register").insert(data);
             return "account successfully created";
@@ -76,6 +76,7 @@ public class Controller {
         //addToWallet
         //User:....,,Money:......
         ArrayList<String> fileContent = new ArrayList<>(Files.readAllLines(Paths.get("src/Data/AccountsNetWorth.txt")));
+
         for (int i = 0; i < fileContent.size(); i++) {
             if (fileContent.get(i).contains(data.get("User"))) {
                 String newLine = "Money:" + (Integer.parseInt(data.get("Money")) + Integer.parseInt(fileContent.get(i).split(",,")[0].split(":")[1])) + ",," + "User:" + data.get("User");
@@ -88,6 +89,21 @@ public class Controller {
         return "Money initiated successfully";
     }
 
+    private String NewPass(HashMap<String, String> data) throws IOException {
+        //NewPass
+        //User:....,,Pass:......,,Email:.....
+        ArrayList<String> fileContent = new ArrayList<>(Files.readAllLines(Paths.get("src/Data/User&Pass.txt")));
+        for (int i = 0; i < fileContent.size(); i++) {
+            if (fileContent.get(i).contains(data.get("User"))) {
+                String newLine = "User:" + data.get("User") + ",," + "Email:" + data.get("Email") + ",,Pass:" + data.get("Pass");
+                fileContent.set(i, newLine);
+                Files.write(Paths.get("src/Data/User&Pass.txt"), fileContent);
+                return "Pass successfully changed";
+            }
+        }
+        return "somthing went wrong";
+    }
+
 
     public String run(String command, String data) throws IOException {
         HashMap<String, String> dataMap = Convertor.StringToMap(data);
@@ -96,6 +112,7 @@ public class Controller {
             case "addToWallet" -> addToWallet(dataMap);
             case "RateBook" -> RateBook(dataMap);
             case "Authorize" -> Authorize(dataMap);
+            case "NewPass" -> NewPass(dataMap);
             default -> "Error";
         };
 

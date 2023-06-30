@@ -1,3 +1,5 @@
 Money:12000,,User:AvaIranmanesh
 Money:8000,,User:AliIranmanesh
 Money:8000,,User:AIranmanesh
+
+Money:401000,,User:ali
